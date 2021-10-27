@@ -13,6 +13,7 @@
 		19B90212272943BB003E5BED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B90210272943BB003E5BED /* Main.storyboard */; };
 		19B90214272943BE003E5BED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 19B90213272943BE003E5BED /* Assets.xcassets */; };
 		19B90217272943BE003E5BED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 19B90215272943BE003E5BED /* LaunchScreen.storyboard */; };
+		19B9021F27296270003E5BED /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19B9021E27296270003E5BED /* Notifications.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		19B90213272943BE003E5BED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		19B90216272943BE003E5BED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		19B90218272943BE003E5BED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		19B9021E27296270003E5BED /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				19B9020A272943BB003E5BED /* AppDelegate.swift */,
 				19B9020C272943BB003E5BED /* SceneDelegate.swift */,
+				19B9021E27296270003E5BED /* Notifications.swift */,
 				19B9020E272943BB003E5BED /* TableViewController.swift */,
 				19B90210272943BB003E5BED /* Main.storyboard */,
 				19B90213272943BE003E5BED /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19B9021F27296270003E5BED /* Notifications.swift in Sources */,
 				19B9020F272943BB003E5BED /* TableViewController.swift in Sources */,
 				19B9020B272943BB003E5BED /* AppDelegate.swift in Sources */,
 				19B9020D272943BB003E5BED /* SceneDelegate.swift in Sources */,
